@@ -1,0 +1,31 @@
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+    <style name="MeuAppActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MeuAppActionBar</item>
+    </style>
+
+    <style name="MeuAppActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/MeuApp.TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/MeuApp.SubTitleTextStyle</item>
+        <item name="android:background">@color/azul</item>
+    </style>
+
+    <style name="MeuApp.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MeuApp.SubTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MeuAppActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MeuAppActionBar</item>
+    </style>
+
+    <style name="MeuAppActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="titleTextStyle">@style/MeuApp.TitleTextStyle</item>
+        <item name="subtitleTextStyle">@style/MeuApp.SubTitleTextStyle</item>
+        <item name="background">@color/azul</item>
+    </style>
+
+    <style name="MeuApp.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MeuApp.SubTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
